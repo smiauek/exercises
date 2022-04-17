@@ -1,0 +1,42 @@
+package com.perscholas.java_basics;
+
+public class JavaBasicsClass {
+
+	public static void main(String[] args) {
+		
+		// question #1
+		
+		int x = 32;
+		int y = 28;
+		
+		int sum = x + y;
+		
+		System.out.println("Question #1");
+		System.out.println(sum);
+		
+		
+		// question #2
+		
+		double q = 3.2;
+		double w = 2.8;
+		
+		double d_sum = q + w;
+		
+		System.out.println("Question #2");
+		System.out.println(d_sum);
+		
+		
+		// question #3
+		
+		int a = 32;
+		double s = 2.8;
+		
+		double id_sum = a + s;
+		
+		System.out.println("Question #3");
+		System.out.println(id_sum);
+		System.out.println("Sum of integer and double must be type double.");
+
+	}
+
+}

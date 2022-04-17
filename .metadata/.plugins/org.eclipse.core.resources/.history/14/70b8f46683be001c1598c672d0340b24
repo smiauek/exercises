@@ -1,0 +1,19 @@
+package com.perscholas.java_basics;
+
+public class JavaBasicsClass {
+
+	public static void main(String[] args) {
+		
+		// question #1
+		
+		int x = 32;
+		int y = 28;
+		
+		int sum = x + y;
+		
+		System.out.println("Question #1");
+		System.out.println(sum);
+
+	}
+
+}
