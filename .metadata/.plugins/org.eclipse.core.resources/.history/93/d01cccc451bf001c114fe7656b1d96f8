@@ -1,0 +1,24 @@
+package com.perscholas.java_basics;
+
+public class ControlFlowClass {
+
+	public static void main(String[] args) {
+		
+		// question #1
+		System.out.println("Question #1");
+		
+		int x1 = 7;
+		
+		if (x1 < 10) {
+			System.out.println("Less than 10");
+		};
+		
+		x1 = 15;
+		
+		if (x1 < 10) {
+			System.out.println("Less than 10");
+		};
+
+	}
+
+}
