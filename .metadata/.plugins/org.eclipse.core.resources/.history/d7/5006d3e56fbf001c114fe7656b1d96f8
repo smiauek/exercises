@@ -1,0 +1,70 @@
+package com.perscholas.java_basics;
+
+import java.util.Iterator;
+
+public class LoopsClass {
+
+	public static void main(String[] args) {
+		
+		// question #1
+		System.out.println("Question #1");
+		
+		for (int i = 1; i < 11; i++) {
+			System.out.println(i);
+		}
+		
+		
+		// question #2
+		System.out.println("Question #2");
+		
+		int y = 0;
+		
+		while (y < 101) {
+			System.out.println(y);
+			y += 10;
+		}
+		
+		
+		// question #3
+		System.out.println("Question #3");
+		
+		int y2 = 1;
+		
+		do {
+			System.out.println(y2);
+			y2++;
+		} while (y2 < 11);
+		
+		
+		//question #4
+		System.out.println("Question #4");
+		
+		for (int i = 1; i < 101; i++) {
+			if (i > 25 && i < 75) {
+				continue;
+			}
+			
+			if (i % 5 == 0) {
+				System.out.println(i);
+			}			
+		}
+		
+		
+		// question #5
+		System.out.println("Question #5");
+		
+		for (int i = 1; i < 100; i++) {			
+			
+			if (i % 5 == 0) {
+				System.out.println(i);
+			}
+			
+			if (i == 5) {
+				break;
+			}
+			
+		}
+
+	}
+
+}
